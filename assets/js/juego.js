@@ -104,7 +104,7 @@ const miModulo = (() => {
             if( puntosComputadora === puntosMinimos ) {
                 alert('Empate, nadie gana');
             } else if ( puntosMinimos > 21 ) {
-                alert('La computadora ganó!');
+                alert('Perdiste!');
             } else if( puntosComputadora > 21 ) {
                 alert('Ganaste!!!');
             } else if ( puntosComputadora > puntosMinimos ){
